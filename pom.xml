@@ -4,12 +4,12 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.wiziq.infrastucture</groupId>
-	<artifactId>wiziq-infrastucture-edgeserver</artifactId>
+	<artifactId>edge-service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>Edge-Server</name>
-	<description>Demo project for Spring Boot</description>
+	<name>Edge-Service</name>
+	<description>Edge service for deployed stack.This acts as a gateway for all web ends</description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>

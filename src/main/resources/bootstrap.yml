@@ -1,10 +1,8 @@
 server:
   port: 8003
-  
 spring:
   application:
-    name: edge-server
-
+    name: edge-service
 ---  
 spring:
   profiles: dev 
@@ -13,7 +11,7 @@ spring:
       fail-fast: true
       discovery:
         enabled: true
-        serviceId: config-server       
+        serviceId: config-service
 eureka:
   client:
     serviceUrl:
