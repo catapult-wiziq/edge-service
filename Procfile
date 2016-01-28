@@ -1,1 +1,1 @@
-web: ./app.sh
+web: /bin/bash app.sh
